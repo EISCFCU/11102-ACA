@@ -1,9 +1,9 @@
 # 11102-ACA
 
 
-#1111 雲端運算基礎(資電碩專一)
+#11102 雲端架構設計(資電碩專一)
 
-#0915實作內容
+#0216實作內容
 
 1.註冊並登入AWS-Academy：https://github.com/EISCFCU/Lab0_AWS-Academy.md
 
