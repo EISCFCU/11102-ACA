@@ -83,4 +83,13 @@ Bucket name：website-<123>
 
 Error document: error.html
 
+![image](https://user-images.githubusercontent.com/103306835/219616923-8517971f-37c5-472d-a4de-ae6800daa333.png)
+
+18.點選[Save changes]
+
+![image](https://user-images.githubusercontent.com/103306835/219617243-2c915005-8e4f-48b9-af88-c368a2cbebd2.png)
+
+19.成功變更
+
+![image](https://user-images.githubusercontent.com/103306835/219617765-bab38b56-7f99-4a03-b913-493e51d0add9.png)
 
