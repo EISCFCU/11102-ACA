@@ -7,4 +7,4 @@
 
 1.註冊並登入AWS-Academy：https://github.com/EISCFCU/Lab0_AWS-Academy.md
 
-2.Quicklab01：https://github.com/EISCFCU/112-ACA/blob/main/Quicklab01.md
+
