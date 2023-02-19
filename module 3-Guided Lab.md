@@ -173,10 +173,46 @@ Error document: error.html
 # 步驟5：更新網站
 
 
-1.將Index檔以文字檔開啟
+1.將index檔以文字檔開啟
 
 ![image](https://user-images.githubusercontent.com/103306835/219965306-8ce60279-c1c2-4012-b4ca-2e77a5a4afa4.png)
 
 2.找到[Served from Amazon S3]
 
 ![image](https://user-images.githubusercontent.com/103306835/219965421-3962e477-7118-4e06-a387-86190470c93f.png)
+
+3.替換為 Created by <YOUR-NAME>
+
+![image](https://user-images.githubusercontent.com/103306835/219965574-a19913aa-8225-4f40-9cca-70ce80427c7a.png)
+
+4.儲存檔案
+  
+![image](https://user-images.githubusercontent.com/103306835/219965659-1da891eb-56f4-478d-8b7b-2dbc90da3f7f.png)
+  
+5.點選[Upload]
+
+![image](https://user-images.githubusercontent.com/103306835/219965827-959334a2-66e4-4d5c-be28-d583e81e43d3.png)
+
+6.將剛才編輯的index檔拖曳到下方畫面
+  
+![image](https://user-images.githubusercontent.com/103306835/219965928-a6a4883f-969e-4fff-9b4c-79611b60cd30.png)
+
+7.點選[Upload]
+  
+![image](https://user-images.githubusercontent.com/103306835/219966067-7ee38def-5f77-483c-b50b-e2ea9ee8ff89.png)
+
+8.點選[index]
+  
+![image](https://user-images.githubusercontent.com/103306835/219966126-5a4d34bb-6e92-48a0-a00b-062168e58a2f.png)
+  
+9.點選[Actions]→[Make public using ACL]
+  
+![image](https://user-images.githubusercontent.com/103306835/219966201-6e3e887e-2482-4f32-95f1-2446479acad0.png)
+
+10.點選[Make public]
+  
+![image](https://user-images.githubusercontent.com/103306835/219966326-f4b6e874-5770-413d-b71b-a8f45e979820.png)
+
+11.回到網頁刷新
+  
+![image](https://user-images.githubusercontent.com/103306835/219966364-edabba0b-17c9-45f3-8057-bb08b67c8ec4.png)
