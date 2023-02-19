@@ -181,7 +181,7 @@ Error document: error.html
 
 ![image](https://user-images.githubusercontent.com/103306835/219965421-3962e477-7118-4e06-a387-86190470c93f.png)
 
-3.替換為 Created by <YOUR-NAME>
+3.替換為 Created by [YOUR-NAME]
 
 ![image](https://user-images.githubusercontent.com/103306835/219965574-a19913aa-8225-4f40-9cca-70ce80427c7a.png)
 
@@ -216,3 +216,22 @@ Error document: error.html
 11.回到網頁刷新
   
 ![image](https://user-images.githubusercontent.com/103306835/219966364-edabba0b-17c9-45f3-8057-bb08b67c8ec4.png)
+
+# 步驟6：Submitting your work
+
+
+1.點選[Submit]
+
+![image](https://user-images.githubusercontent.com/103306835/219966543-28056617-9f6d-4a8e-b1f2-ec40c45cb598.png)
+
+2.點選[Yes]
+
+![image](https://user-images.githubusercontent.com/103306835/219966653-e7cbbff2-4f61-4ae1-ba96-6cfb30627aa2.png)
+
+3.點選[Grades]
+
+![image](https://user-images.githubusercontent.com/103306835/219966719-572ea09b-bec8-46a0-8a8f-df4ec9098b4b.png)
+
+4.查看分數
+
+![image](https://user-images.githubusercontent.com/103306835/219966788-c3562bdc-71e1-4b97-bcab-234031ff2cdf.png)
