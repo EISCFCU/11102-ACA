@@ -5,7 +5,7 @@
 
 # 實施步驟
 
-![image](https://user-images.githubusercontent.com/103306835/172282245-df7b6c48-5437-4886-9b6b-86295e4ff3b9.png)
+![image](https://user-images.githubusercontent.com/103306835/219967072-a74cd439-a2d3-4bb9-bc89-9cfb5f5cd418.png)
 
 # 步驟1：新增S3 Bucket
 
@@ -214,7 +214,7 @@ Error document: error.html
   
 ![image](https://user-images.githubusercontent.com/103306835/219966364-edabba0b-17c9-45f3-8057-bb08b67c8ec4.png)
 
-# 步驟5：Submitting your work
+# Submitting your work
 
 
 1.點選[Submit]
