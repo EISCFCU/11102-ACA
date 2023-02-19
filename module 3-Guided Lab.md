@@ -71,40 +71,37 @@ Bucket name：website-<123>
 
 ![image](https://user-images.githubusercontent.com/103306835/219612652-ed74ad7f-a222-4f2f-aa4c-d5c09f798580.png)
 
-# 步驟2：設定網站託管
-
-
-1.點選[Static website hosting] 的[Edit]
+15.點選[Static website hosting] 的[Edit]
 
 ![image](https://user-images.githubusercontent.com/103306835/219613181-5c76193d-bb74-40a0-8e9e-5e640f36b876.png)
 
-2.勾選[Enable]、[Host a static website]
+16.勾選[Enable]、[Host a static website]
 
 ![image](https://user-images.githubusercontent.com/103306835/219615765-51f2228f-0c60-4efd-8200-8c2b350793a2.png)
 
-3.輸入index document：Index.html
+17.輸入index document：Index.html
 
 Error document: error.html
 
 ![image](https://user-images.githubusercontent.com/103306835/219616923-8517971f-37c5-472d-a4de-ae6800daa333.png)
 
-4.點選[Save changes]
+18.點選[Save changes]
 
 ![image](https://user-images.githubusercontent.com/103306835/219617243-2c915005-8e4f-48b9-af88-c368a2cbebd2.png)
 
-5.成功變更
+19.成功變更
 
 ![image](https://user-images.githubusercontent.com/103306835/219617765-bab38b56-7f99-4a03-b913-493e51d0add9.png)
 
-6.點選[Static website hosting] 的連結
+20.點選[Static website hosting] 的連結
 
 ![image](https://user-images.githubusercontent.com/103306835/219962843-81bf6eec-a404-4936-865e-908fe721831d.png)
 
-7.會出現403 Forbidden
+21.會出現403 Forbidden
 
 ![image](https://user-images.githubusercontent.com/103306835/219962877-bdf0ef83-42c1-49e1-a2ac-6c966aee9478.png)
 
-# 步驟3：上傳網頁資料
+# 步驟2：上傳網頁資料
 
 
 1.下載網頁資料
@@ -135,7 +132,7 @@ Error document: error.html
 
 ![image](https://user-images.githubusercontent.com/103306835/219963854-75a77db9-b670-4651-936d-20444ebe3687.png)
 
-# 步驟4：設定對外瀏覽權限
+# 步驟3：設定對外瀏覽權限
 
 
 1.返回網頁頁面按刷新仍會出現403 Forbidden
@@ -170,7 +167,7 @@ Error document: error.html
 
 ![image](https://user-images.githubusercontent.com/103306835/219965097-a9e49ac0-1c1a-4e5d-a666-f7362d6e28dc.png)
 
-# 步驟5：更新網站
+# 步驟4：更新網站
 
 
 1.將index檔以文字檔開啟
@@ -217,7 +214,7 @@ Error document: error.html
   
 ![image](https://user-images.githubusercontent.com/103306835/219966364-edabba0b-17c9-45f3-8057-bb08b67c8ec4.png)
 
-# 步驟6：Submitting your work
+# 步驟5：Submitting your work
 
 
 1.點選[Submit]
