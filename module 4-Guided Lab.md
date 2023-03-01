@@ -67,4 +67,45 @@ Value: My First EFS File System
 # 步驟3：連接EC2
 
 
-1.
+1.點選[Details]->[Show]
+
+2.點選[Download PPK]
+
+3.複製 EC2PublicIP
+
+4.打開[putty.exe]
+
+5.點選[Connection]->Seconds between keepalives: 30
+
+6.點選[Session]
+
+7.輸入Host Name
+
+8.點選[Credentials]
+
+9.上傳[ labsuser.ppk]
+
+10.點選[Open]
+
+11.點選[Accept]
+
+12.輸入[ec2-user]
+
+
+# 步驟4：連接EC2
+
+
+1.輸入[sudo mkdir efs]
+
+2.點選[My First EFS File System]
+
+3.點選[Attach]
+
+4.複製 Using the NFS client
+
+5.輸入[sudo df -hT]
+
+6.輸入[df -hT]
+
+
+# 步驟5：
