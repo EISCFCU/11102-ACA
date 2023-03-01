@@ -31,7 +31,40 @@ Source:Custom
 
 10.點選[Create security group]
 
-# 步驟2：
+
+# 步驟2：建立 EFS file system
+
+
+1.點選[EFS]
+
+2.點選[Create file system]
+
+3.點選[Customize]
+
+4.取消選取[Enable automatic backups]
+
+5.Lifecycle management 選擇 None
+
+6.Key: Name
+
+Value: My First EFS File System
+
+
+
+7.點選[Next]
+
+8.點選[Lab VPC]
+
+9.刪除default security group
+
+10.點選[Next]
+
+11.點選[Next]
+
+12.點選[Create]
+
+
+# 步驟3：連接EC2
 
 
 1.
