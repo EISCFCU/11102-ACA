@@ -9,33 +9,53 @@
 
 1.搜尋EC2
 
+![image](https://user-images.githubusercontent.com/103306835/222338960-2dd218a9-567c-4db9-8e15-dbd7b45a8981.png)
+
 2.點選[EC2]
+
+![image](https://user-images.githubusercontent.com/103306835/222339040-1e90de29-5606-476d-a7aa-88b54c7263ea.png)
 
 3.點選[Security Groups]
 
+![image](https://user-images.githubusercontent.com/103306835/222339123-ac289c0d-1566-48d0-aea0-63d1606056be.png)
+
 4.複製 Security GroupsID
+
+![image](https://user-images.githubusercontent.com/103306835/222339226-bcb7c231-0af0-4bec-a3ea-9ea7450bc65c.png)
 
 5.點選[Create security group]
 
-6.輸入[Security group name]、[Description]
+![image](https://user-images.githubusercontent.com/103306835/222339294-6a3bc37b-e73b-444f-b0f5-3ffdf8f00db6.png)
+
+6.輸入[Security group name：EFS Mount Target]
+
+[Description：Inbound NFS access from EFS clients]
+
+![image](https://user-images.githubusercontent.com/103306835/222339579-ab36a231-a9e9-45c4-b617-d28614cab5df.png)
 
 7.選擇[Lab VPC]
 
+![image](https://user-images.githubusercontent.com/103306835/222339701-6fe630fa-874c-4341-acca-340fdbe19b85.png)
+
 8.點選[Add rule]
+
+![image](https://user-images.githubusercontent.com/103306835/222339775-93be1a65-574f-4d1b-98ff-9214f7b92cdb.png)
 
 9.Type: NFS
 
 Source:Custom
 
-
+![image](https://user-images.githubusercontent.com/103306835/222339902-f37ad064-0437-448d-a4e5-eb8e0e984e9e.png)
 
 10.點選[Create security group]
 
+![image](https://user-images.githubusercontent.com/103306835/222339992-b0b54d51-9155-48f7-ba84-5eb88a5d9b55.png)
 
 # 步驟2：建立 EFS file system
 
 
 1.點選[EFS]
+
 
 2.點選[Create file system]
 
