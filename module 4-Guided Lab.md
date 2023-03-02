@@ -109,39 +109,70 @@ Value: My First EFS File System
 
 1.點選[Details]->[Show]
 
+![image](https://user-images.githubusercontent.com/103306835/222341565-29e4b1c9-aab9-4671-833d-dee74d12906d.png)
+
 2.點選[Download PPK]
+
+![image](https://user-images.githubusercontent.com/103306835/222341658-17fa612a-c087-47a2-bc3b-d076c01834c4.png)
 
 3.複製 EC2PublicIP
 
+![image](https://user-images.githubusercontent.com/103306835/222341754-086bb042-fbf8-46e6-a7e3-2f38a789fed6.png)
+
 4.打開[putty.exe]
+
+![image](https://user-images.githubusercontent.com/103306835/222341917-d10631f8-562f-4313-8b66-d2f5c4201483.png)
 
 5.點選[Connection]->Seconds between keepalives: 30
 
+![image](https://user-images.githubusercontent.com/103306835/222342045-769c3db0-60f7-4a61-b534-a8b2c61fe5ea.png)
+
 6.點選[Session]
+
+![image](https://user-images.githubusercontent.com/103306835/222342132-8b5b4b7c-aa29-494a-99da-e93aac3df233.png)
 
 7.輸入Host Name
 
+![image](https://user-images.githubusercontent.com/103306835/222342254-a7fed32d-3c77-426a-9ede-e4f3c74a3e4b.png)
+
 8.點選[Credentials]
+
+![image](https://user-images.githubusercontent.com/103306835/222342377-85183869-b13d-4c1c-9e62-9db85f2b00c1.png)
 
 9.上傳[ labsuser.ppk]
 
+![image](https://user-images.githubusercontent.com/103306835/222342421-de5260fb-2ff3-4363-890e-d15bb7034989.png)
+
 10.點選[Open]
+
+![image](https://user-images.githubusercontent.com/103306835/222342550-cde6af8f-e01e-4662-9789-8877a46dcfb8.png)
 
 11.點選[Accept]
 
+![image](https://user-images.githubusercontent.com/103306835/222342792-17af718b-8412-4c46-bd4c-e224a7f4cbb5.png)
+
 12.輸入[ec2-user]
 
+![image](https://user-images.githubusercontent.com/103306835/222342883-f31e1e07-19c2-4c87-ba05-c4d3523a7bdc.png)
 
-# 步驟4：連接EC2
+# 步驟4：Creating a new directory and mounting the EFS file system
 
 
 1.輸入[sudo mkdir efs]
 
+![image](https://user-images.githubusercontent.com/103306835/222343134-df5c2f94-acf4-4304-8e29-dcedfaad0d8b.png)
+
 2.點選[My First EFS File System]
+
+![image](https://user-images.githubusercontent.com/103306835/222343230-bc984409-d707-4885-b594-add163d035e4.png)
 
 3.點選[Attach]
 
+![image](https://user-images.githubusercontent.com/103306835/222343265-ba6bab8b-6d37-4871-a51b-43777e8c0d68.png)
+
 4.複製 Using the NFS client
+
+![image](https://user-images.githubusercontent.com/103306835/222343376-af69ac40-e76e-46e9-b1c1-d609c95f48c8.png)
 
 5.輸入[sudo df -hT]
 
