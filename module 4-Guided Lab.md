@@ -229,3 +229,16 @@ Value: My First EFS File System
 
 9.點選[Graphed metrics]
 
+![image](https://user-images.githubusercontent.com/103306835/222379570-48e3c0bb-d9b1-4c62-8424-daaf1267af54.png)
+
+10.點選[Statistics] -> 選取[Sum]
+
+![image](https://user-images.githubusercontent.com/103306835/222380023-f0283e3b-6917-42a6-a518-4dd028aef9d6.png)
+
+11.點選[Period] -> 選取[1 Minute]
+
+![image](https://user-images.githubusercontent.com/103306835/222380532-f93c7afb-2016-45e5-93bc-eab73520d1e3.png)
+
+12.將游標停在數據線上
+
+![image](https://user-images.githubusercontent.com/103306835/222380845-104d44e5-0a0f-49a0-8acc-530f39aa211f.png)
