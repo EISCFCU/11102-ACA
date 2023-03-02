@@ -2,6 +2,8 @@
 
 # 實施步驟
 
+![image](https://user-images.githubusercontent.com/103306835/222383307-f5d22636-8a4a-4c24-9fff-dfc810927f8d.png)
+
 # 實驗室目前架構
 
 # 步驟1：建立安全群組
@@ -159,7 +161,7 @@ Value: My First EFS File System
 
 ![image](https://user-images.githubusercontent.com/103306835/222342883-f31e1e07-19c2-4c87-ba05-c4d3523a7bdc.png)
 
-# 步驟4：Creating a new directory and mounting the EFS file system
+# 步驟4：掛載EFS file system
 
 
 1.輸入[sudo mkdir efs]
