@@ -178,9 +178,54 @@ Value: My First EFS File System
 
 ![image](https://user-images.githubusercontent.com/103306835/222343376-af69ac40-e76e-46e9-b1c1-d609c95f48c8.png)
 
-5.輸入[sudo df -hT]
+5.輸入 sudo df -hT
 
-6.輸入[df -hT]
+![image](https://user-images.githubusercontent.com/103306835/222369230-73d1a180-9205-49b6-8dde-3b14ffd25a46.png)
+
+6.輸入 df -hT
+
+![image](https://user-images.githubusercontent.com/103306835/222369787-9fb9c3bf-4c25-40b3-a0ae-a7eb33302f50.png)
+
+7.輸入[df -hT]後
+
+![image](https://user-images.githubusercontent.com/103306835/222370138-20cccde4-15b8-41d4-9d9c-c438ff221af7.png)
+
+# 步驟5：檢查EFS性能
 
 
-# 步驟5：
+1.輸入 sudo fio --name=fio-efs --filesize=10G --filename=./efs/fio-efs-test.img --bs=1M --nrfiles=1 --direct=1 --sync=0 --rw=write --iodepth=200 --ioengine=libaio
+
+![image](https://user-images.githubusercontent.com/103306835/222371859-c929504c-8908-4fc3-b872-daa2f469718b.png)
+
+2.點選[EC2]
+
+![image](https://user-images.githubusercontent.com/103306835/222372208-9798662f-00d5-41a8-93dc-ef7b50eb0a0c.png)
+
+3.點選[All metrics]
+
+![image](https://user-images.githubusercontent.com/103306835/222373928-f28dbe62-c956-4906-8477-b8a1963a5139.png)
+
+4.點選[EFS]
+
+![image](https://user-images.githubusercontent.com/103306835/222375469-8298a079-a05a-4d01-9b8f-25b446916b0e.png)
+
+5.點選[File System Metrics]
+
+![image](https://user-images.githubusercontent.com/103306835/222375767-f2028728-b071-4281-839d-8c3b858abb51.png)
+
+6.點選[PermittedThroughput]
+
+![image](https://user-images.githubusercontent.com/103306835/222377257-f3fa49d6-d041-4cd5-9d64-50e4a76fc39f.png)
+
+7.將游標停在數據線上
+
+![image](https://user-images.githubusercontent.com/103306835/222378120-f491230d-8d2f-471d-85e0-a9e300b668fa.png)
+
+8.取消選取[PermittedThroughput]
+
+選取[DataWriteIOBytes]
+
+![image](https://user-images.githubusercontent.com/103306835/222379142-fa6bbddb-5e6d-4e7a-9e2b-3d5efb7fccc1.png)
+
+9.點選[Graphed metrics]
+
