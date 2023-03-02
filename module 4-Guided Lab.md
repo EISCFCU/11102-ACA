@@ -100,6 +100,8 @@ Value: My First EFS File System
 
 12.點選[Next]
 
+![image](https://user-images.githubusercontent.com/103306835/222358923-212fe983-6f46-4640-b56c-c86fbaed9e0d.png)
+
 13.點選[Create]
 
 ![image](https://user-images.githubusercontent.com/103306835/222341414-a978d05b-29a2-459d-8d65-be52a01c286b.png)
