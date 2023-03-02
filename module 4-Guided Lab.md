@@ -72,7 +72,7 @@ Source:Custom
 
 5.Lifecycle management 選擇 None
 
-![image](https://user-images.githubusercontent.com/103306835/222340464-2c6110c7-62fa-40d8-890d-ba10021ce2db.png)
+![image](https://user-images.githubusercontent.com/103306835/222381592-7e77ef45-565c-43f2-9874-f423774c4758.png)
 
 6.Key: Name
 
