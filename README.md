@@ -13,4 +13,4 @@ Module 3 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/module%203-
 
 #0302實作內容
 
-Module 4 Guided Lab：
+Module 4 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/module%204-Guided%20Lab.md
