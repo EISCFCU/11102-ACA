@@ -4,7 +4,6 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/222383307-f5d22636-8a4a-4c24-9fff-dfc810927f8d.png)
 
-# 實驗室目前架構
 
 # 步驟1：建立安全群組
 
