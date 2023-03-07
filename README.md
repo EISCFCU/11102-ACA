@@ -5,8 +5,12 @@
 
 #0216實作內容
 
-1. 註冊並登入AWS-Academy：https://github.com/EISCFCU/Lab0_AWS-Academy.md
+註冊並登入AWS-Academy：https://github.com/EISCFCU/Lab0_AWS-Academy.md
 
 #0223實作內容
 
-2. Module 3 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/module%203-Guided%20Lab.md
+Module 3 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/module%203-Guided%20Lab.md
+
+#0302實作內容
+
+Module 4 Guided Lab：
