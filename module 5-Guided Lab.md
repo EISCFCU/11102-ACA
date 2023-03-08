@@ -1,9 +1,5 @@
 # 建立 RDS Database
 
-# 實施步驟
-
-
-
 # 實施架構
 
 ![image](https://user-images.githubusercontent.com/103306835/223628608-c0f66212-9f8e-482b-b73b-0596cb1dad87.png)
