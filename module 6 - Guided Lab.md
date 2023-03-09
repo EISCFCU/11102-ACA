@@ -89,4 +89,22 @@ IPv4 CIDR block: 10.0.2.0/23
 # 步驟4：配置路由
 
 
-1.
+1.點選[Route Tables]
+
+2.查看 Route Tables
+
+3.點選使用 Lab VPC 的 Route Tables
+
+4.編輯 Name->[Private Route Table]
+
+5.點選[Routes]
+
+6.點選[Create route table]
+
+7.Name: Public Route Table
+
+VPC: Lab VPC
+
+8.點選[Create route table]
+
+9.
