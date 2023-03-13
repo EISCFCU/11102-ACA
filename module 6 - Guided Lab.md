@@ -97,15 +97,25 @@ Subnet name: Public Subnet
 # 建立私有子網
 9.點選[Create subnet]
 
+![image](https://user-images.githubusercontent.com/103306835/224626476-260e3e57-4182-4572-8b58-4686f7c3fd70.png)
+
 10.VPC ID: Lab VPC
 
 Subnet name: Private Subnet
 
-Availability Zone: Select the first Availability Zone in the list (do not keep the No Preference default)
+![image](https://user-images.githubusercontent.com/103306835/224626933-212a7c67-0fe6-42c1-86ea-a45f18eee786.png)
 
-IPv4 CIDR block: 10.0.2.0/23
+11.Availability Zone: 點選第一個 AZ
 
-11.點選[Create subnet]
+![image](https://user-images.githubusercontent.com/103306835/224627211-95d9b09e-a7b8-4829-aac4-e88eb74c8e76.png)
+
+12.IPv4 CIDR block: 10.0.2.0/23
+
+![image](https://user-images.githubusercontent.com/103306835/224627510-0b64ec2e-90bc-42cd-9bef-9ff147173c05.png)
+
+13.點選[Create subnet]
+
+![image](https://user-images.githubusercontent.com/103306835/224627714-e0a6bff4-0ea7-4eb6-9802-60eca5101758.png)
 
 
 # 步驟3：建立internet gateway
@@ -113,23 +123,38 @@ IPv4 CIDR block: 10.0.2.0/23
 
 1.點選[Internet Gateways]
 
+![image](https://user-images.githubusercontent.com/103306835/224628799-dc429158-c569-40bc-85de-4a348649e08a.png)
+
 2.點選[Create internet gateway]
+
+![image](https://user-images.githubusercontent.com/103306835/224629030-aeb5f89c-90ab-4897-9b21-d8a2bd0b615d.png)
 
 3.Name tag: Lab IGW
 
+![image](https://user-images.githubusercontent.com/103306835/224629667-3104ce1f-5e01-4f30-80f0-ba7d65ea9c01.png)
+
 4.點選[Create internet gateway]
+
+![image](https://user-images.githubusercontent.com/103306835/224629888-860bbd01-42f9-4f52-84f0-e267e0188bb8.png)
 
 5.點選[Actions]->[Attach to VPC]
 
+![image](https://user-images.githubusercontent.com/103306835/224630087-fedb2baf-a808-4281-b19c-6a47068cdb6f.png)
+
 6.點選[Lab VPC]
 
+![image](https://user-images.githubusercontent.com/103306835/224630273-f6d5580c-f07c-47c7-8f76-c5b179e03345.png)
+
 7.點選[Attach internet gateway]
+
+![image](https://user-images.githubusercontent.com/103306835/224630468-0b092141-2ae8-41b0-81a1-fb8dc371cfff.png)
 
 
 # 步驟4：配置路由
 
 
 1.點選[Route Tables]
+
 
 2.查看 Route Tables
 
