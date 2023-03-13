@@ -2,6 +2,8 @@
 
 # 實施步驟
 
+![image](https://user-images.githubusercontent.com/103306835/224647219-f9fbff19-99ec-4965-8857-6addb3ac8cab.png)
+
 # 實施架構
 
 # 步驟1：建立VPC
