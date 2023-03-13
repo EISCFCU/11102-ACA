@@ -155,21 +155,74 @@ Subnet name: Private Subnet
 
 1.點選[Route Tables]
 
+![image](https://user-images.githubusercontent.com/103306835/224630709-c6e0c5f2-b475-4c62-8c54-f6de761bdf2a.png)
 
 2.查看 Route Tables
 
+![image](https://user-images.githubusercontent.com/103306835/224630947-10ba2e7b-0398-4aeb-9acf-4308de262e77.png)
+
 3.點選使用 Lab VPC 的 Route Tables
 
-4.編輯 Name->[Private Route Table]
+![image](https://user-images.githubusercontent.com/103306835/224631115-9a4df5cf-38ba-4417-85c5-75112b8fd572.png)
+
+4.編輯 Name->[Private Route Table]->[save]
+
+![image](https://user-images.githubusercontent.com/103306835/224631556-16008f25-a415-44f2-898a-16aab4969fff.png)
 
 5.點選[Routes]
 
+![image](https://user-images.githubusercontent.com/103306835/224631772-0493cbe9-d3cb-43a8-b0a9-ef9f2a4fcbca.png)
+
 6.點選[Create route table]
+
+![image](https://user-images.githubusercontent.com/103306835/224632014-ac0c31a1-899f-43eb-bef3-6ae466669a32.png)
 
 7.Name: Public Route Table
 
 VPC: Lab VPC
 
+![image](https://user-images.githubusercontent.com/103306835/224632810-1d30578b-1d97-443b-8915-ce98994e9d26.png)
+
 8.點選[Create route table]
 
-9.
+![image](https://user-images.githubusercontent.com/103306835/224632959-9822c89a-e67c-4d2e-a662-83c1ab99d7fb.png)
+
+9.點選[Edit routes]
+
+![image](https://user-images.githubusercontent.com/103306835/224633154-1da50d1e-9bb8-4cf5-8263-04d36652689c.png)
+
+10.點選[Add route]
+
+![image](https://user-images.githubusercontent.com/103306835/224633481-4c58383d-2dfd-4aee-a31b-9bf451ad70c2.png)
+
+11.Destination: 0.0.0.0/0
+
+Target:點選[Internet Gateway]->點選[Lab IGW]
+
+![image](https://user-images.githubusercontent.com/103306835/224633942-58c47a45-08ff-41a4-8e9f-fd3153229be0.png)
+
+12.點選[Save changes]
+
+![image](https://user-images.githubusercontent.com/103306835/224634276-d80d1a98-61b8-4698-aefc-9849fb6c9246.png)
+
+13.點選[Subnet associations]
+
+![image](https://user-images.githubusercontent.com/103306835/224634647-c9de5733-a9e6-4428-ab0b-dd6464124c8d.png)
+
+14.點選[Edit subnet associations]
+
+![image](https://user-images.githubusercontent.com/103306835/224634806-71e1b031-a6f0-4be0-9940-2b20c706b60e.png)
+
+15.點選[Public Subnet]
+
+![image](https://user-images.githubusercontent.com/103306835/224635129-68f5bb08-c0d9-4967-961e-b9f41a7ef451.png)
+
+16.點選[Save associations]
+
+![image](https://user-images.githubusercontent.com/103306835/224635219-b107aac1-48dd-47e8-94d4-7cbfb2ba48d0.png)
+
+
+# 步驟5：
+
+
+1.
