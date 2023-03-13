@@ -47,7 +47,7 @@ Confirm password: lab-password
 
 ![image](https://user-images.githubusercontent.com/103306835/223632064-aeabc3c4-c2c6-47ec-a859-06030aee0cc0.png)
 
-10.11.選擇[Lab VPC]
+10.選擇[Lab VPC]
 
 ![image](https://user-images.githubusercontent.com/103306835/223632941-c8b653e9-c524-46b0-a04b-d08429e92b5c.png)
 
