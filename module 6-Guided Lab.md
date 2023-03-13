@@ -342,3 +342,11 @@ Common security groups： App-SG
 16.打開IP address
 
 ![image](https://user-images.githubusercontent.com/103306835/224645736-a49e117a-1593-4494-9733-eeeda81154ab.png)
+
+17.點選[Submit]
+
+![image](https://user-images.githubusercontent.com/103306835/224646270-28233503-85b6-4033-a979-e41ae67fb5d2.png)
+
+18.查看成績
+
+![image](https://user-images.githubusercontent.com/103306835/224646559-5948fd94-5f2b-41e1-ab9b-3097076fa71d.png)
