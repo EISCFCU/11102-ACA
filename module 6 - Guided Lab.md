@@ -222,7 +222,52 @@ Target:點選[Internet Gateway]->點選[Lab IGW]
 ![image](https://user-images.githubusercontent.com/103306835/224635219-b107aac1-48dd-47e8-94d4-7cbfb2ba48d0.png)
 
 
-# 步驟5：
+# 步驟5：建立安全群組
 
 
-1.
+1.點選[Security Groups]
+
+![image](https://user-images.githubusercontent.com/103306835/224636027-f41c8d0a-6885-45a9-9014-962f335a55f1.png)
+
+2.點選[Create security group]
+
+![image](https://user-images.githubusercontent.com/103306835/224636207-97ab046b-db36-4f33-9bf6-9af672a93f04.png)
+
+3.Security group name: App-SG
+
+Description: Allow HTTP traffic
+
+VPC: 點選[Lab VPC]
+
+![image](https://user-images.githubusercontent.com/103306835/224636565-e0569b47-d9ed-4435-8efe-89118e1012a2.png)
+
+4.點選[Create security group]
+
+![image](https://user-images.githubusercontent.com/103306835/224636836-01e214ec-b9e6-4bda-9874-e49831fb9c86.png)
+
+5.點選[Inbound rules]
+
+![image](https://user-images.githubusercontent.com/103306835/224637132-11d1a794-d7d5-4328-98b0-8c9b2b2d924b.png)
+
+6.點選[Edit inbound rules]
+
+![image](https://user-images.githubusercontent.com/103306835/224637354-4c6f59a2-f399-42f7-9133-a5c47446481f.png)
+
+7.點選[Add rule]
+
+![image](https://user-images.githubusercontent.com/103306835/224637636-8f7b33e0-8df4-4d02-b62d-bac60348fee0.png)
+
+8.Type:  HTTP
+
+Source type: Anywhere-IPv4
+
+Description: Allow web access
+
+![image](https://user-images.githubusercontent.com/103306835/224637979-e158c144-1cc0-4b44-9fd8-fceb9835598a.png)
+
+9.點選[Save rules]
+
+![image](https://user-images.githubusercontent.com/103306835/224638206-24da65bd-6620-49fa-8906-2b7fba856be3.png)
+
+
+# 步驟6：
