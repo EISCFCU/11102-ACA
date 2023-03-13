@@ -270,4 +270,75 @@ Description: Allow web access
 ![image](https://user-images.githubusercontent.com/103306835/224638206-24da65bd-6620-49fa-8906-2b7fba856be3.png)
 
 
-# 步驟6：
+# 步驟6：在公有子網中啟動
+
+
+1.點選[EC2]
+
+![image](https://user-images.githubusercontent.com/103306835/224638864-1892e04a-00d4-4478-b9f6-7308f813be46.png)
+
+2.點選[Instance]->[Launch instance]
+
+![image](https://user-images.githubusercontent.com/103306835/224639515-ae640860-81a5-4814-8c6c-a1f4bd6891c1.png)
+
+3.Name: App Server
+
+![image](https://user-images.githubusercontent.com/103306835/224639857-0cf0597a-a962-4bc0-9604-c121f5dc3895.png)
+
+4.Quick Start AMIs：Amazon Linux 
+
+Amazon Machine Image (AMI)：Amazon Linux 2 AMI (HVM) 
+
+![image](https://user-images.githubusercontent.com/103306835/224640307-7115798a-2fcf-4097-b749-746e2668dd18.png)
+
+5. Instance type： t2.micro 
+
+![image](https://user-images.githubusercontent.com/103306835/224640827-c6cdbbce-cd99-4c8f-b069-1b3e8cca0bff.png)
+
+6.Key pair name：vockey
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103306835/224640951-3a022c3a-1784-4c8e-aee7-d4b5d7883725.png">
+
+7.Network settings->點選[Edit]
+
+![image](https://user-images.githubusercontent.com/103306835/224641172-5dbcae5d-ffea-4c90-a142-e674255fc74b.png)
+
+8.Network: Lab VPC
+
+Subnet: Public Subnet
+
+![image](https://user-images.githubusercontent.com/103306835/224641597-d82b0ea9-2696-43cf-969c-0be465b4b8f2.png)
+
+9.security groups：Select an existing security group
+
+Common security groups： App-SG
+
+![image](https://user-images.githubusercontent.com/103306835/224642090-33db585e-f7b6-4d01-a61e-a1a667957424.png)
+
+10.IAM instance profile: Inventory-App-Role 
+
+![image](https://user-images.githubusercontent.com/103306835/224642588-19fa1676-1111-4485-80cf-fa617201bfe0.png)
+
+11.輸入User data：
+
+![image](https://user-images.githubusercontent.com/103306835/224642979-cf14b223-b18d-48fc-b7bb-e9cc4d050344.png)
+
+12.點選[Launch instance]
+
+![image](https://user-images.githubusercontent.com/103306835/224643174-faf9051a-87bf-4ecc-9e17-8e4a80eeee4e.png)
+
+13.點選[View all instances]
+
+![image](https://user-images.githubusercontent.com/103306835/224643448-a8a7720a-a094-4ad1-868d-42270d471ccf.png)
+
+14.點選[App Server]
+
+![image](https://user-images.githubusercontent.com/103306835/224645250-c8c6a5ee-c1c3-4d30-b20f-a1d9352b807a.png)
+
+15.複製Public IPv4 DNS
+
+![image](https://user-images.githubusercontent.com/103306835/224645427-fb2fb36d-aa1d-4427-a0bb-f74c8937d0ef.png)
+
+16.打開IP address
+
+![image](https://user-images.githubusercontent.com/103306835/224645736-a49e117a-1593-4494-9733-eeeda81154ab.png)
