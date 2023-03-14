@@ -341,7 +341,7 @@ Common security groups： App-SG
 
 15.複製Public IPv4 DNS
 
-![image](https://user-images.githubusercontent.com/103306835/224645427-fb2fb36d-aa1d-4427-a0bb-f74c8937d0ef.png)
+![image](https://user-images.githubusercontent.com/103306835/224921295-5f325a30-ec5e-4738-95db-db8d926b8b20.png)
 
 16.打開IP address
 
