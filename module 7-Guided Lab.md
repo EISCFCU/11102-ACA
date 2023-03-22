@@ -117,3 +117,56 @@ Target：Peering Connection->Lab-Peer
 # 步驟3：測試VPC對等連接
 
 
+1.搜尋EC2
+
+![image](https://user-images.githubusercontent.com/103306835/226789255-9015293d-ce8b-4506-8ff6-16575527118a.png)
+
+2.點選[EC2]
+
+![image](https://user-images.githubusercontent.com/103306835/226789186-6ef1bb72-bdb6-47c6-a081-e12936220c4d.png)
+
+3.點選[Instances]
+
+![image](https://user-images.githubusercontent.com/103306835/226789300-94f8acad-f2af-452d-a5e9-e72b8869fba2.png)
+
+4.複製[IPv4 Public IP]
+
+![image](https://user-images.githubusercontent.com/103306835/226789356-d01aa0de-dfff-4070-956e-3489136633e1.png)
+
+5.打開 IPv4 Public IP
+
+![image](https://user-images.githubusercontent.com/103306835/226789382-6246c3fb-8ff3-4f12-80f2-b47b35305587.png)
+
+6.點選[Settings]
+
+![image](https://user-images.githubusercontent.com/103306835/226789410-5593cf19-3ad6-4c49-9711-e319a9b1a79a.png)
+
+7.複製[Endpoint]
+
+![image](https://user-images.githubusercontent.com/103306835/226789434-55260b93-0e56-4ccd-9b80-adf51e89efc7.png)
+
+8. Database: inventory 
+
+Username: admin 
+
+Password: lab-password
+
+![image](https://user-images.githubusercontent.com/103306835/226789602-f648471f-2902-46da-a139-6bbd5c114343.png)
+
+9.點選[Save]
+
+![image](https://user-images.githubusercontent.com/103306835/226789641-66166405-d1db-44f1-85b4-2eb86b418928.png)
+
+![image](https://user-images.githubusercontent.com/103306835/226789668-a185e576-2758-4a36-855d-338b5e199304.png)
+
+10.點選[Submit]
+
+![image](https://user-images.githubusercontent.com/103306835/226789731-40adf31c-a766-4e1d-ada6-bd47d72889ef.png)
+
+11.查看成績
+
+![image](https://user-images.githubusercontent.com/103306835/226789763-c241a1d1-c393-4b9e-af42-6d9a4dabb26e.png)
+
+12. End Lab
+
+![image](https://user-images.githubusercontent.com/103306835/226789816-3f2b4d7f-8fb2-412e-b640-e60cd3fa4706.png)
