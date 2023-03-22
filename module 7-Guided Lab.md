@@ -55,3 +55,65 @@ VPC (Accepter)：Shared VPC
 
 # 步驟2：配置路由表
 
+![image](https://user-images.githubusercontent.com/103306835/226788298-212f9dca-439c-4278-aeda-33e410f2ef73.png)
+
+1.點選[Route Tables]
+
+![image](https://user-images.githubusercontent.com/103306835/226788345-555e160b-7d8b-4621-aa01-e14903f61ddd.png)
+
+2.點選[Lab Public Route Table]
+
+![image](https://user-images.githubusercontent.com/103306835/226788382-b48db351-4b1e-4e07-95aa-ec678a29bb14.png)
+
+3.點選[Routes]
+
+![image](https://user-images.githubusercontent.com/103306835/226788423-a800a86e-767f-4aa1-8af0-669dc28a963e.png)
+
+4.點選[Edit routes]
+
+![image](https://user-images.githubusercontent.com/103306835/226788456-40ca780d-a6a7-4fae-9aa6-60012d4af39b.png)
+
+5.點選[Add route]
+
+![image](https://user-images.githubusercontent.com/103306835/226788498-f05568e1-4186-4ef4-9492-09ceda8a8994.png)
+
+6. Destination： 10.5.0.0/16
+
+Target：Peering Connection->Lab-Peer
+
+![image](https://user-images.githubusercontent.com/103306835/226788599-0e22f738-9b3c-4301-94a7-92c78aa5dcb2.png)
+
+7.點選[Save routes
+
+![image](https://user-images.githubusercontent.com/103306835/226788633-ba68a327-87d2-4dee-b67c-41d9c2b24292.png)
+
+8.點選[Shared-VPC Route Table]
+
+![image](https://user-images.githubusercontent.com/103306835/226788677-29ebe395-54f5-44e6-a253-b8e1d5843647.png)
+
+9.點選[Routes]
+
+![image](https://user-images.githubusercontent.com/103306835/226788707-10f36607-b19e-4a1f-8b93-e80ef5db77b2.png)
+
+10.點選[Edit routes]
+
+![image](https://user-images.githubusercontent.com/103306835/226788757-7d4eba45-f45f-43a9-92ff-4d504901e717.png)
+
+11.點選[Add route]
+
+![image](https://user-images.githubusercontent.com/103306835/226788824-095d6728-ff43-4488-b89e-999d39667740.png)
+
+12. Destination： 10.0.0.0/16
+
+Target：Peering Connection->Lab-Peer
+
+![image](https://user-images.githubusercontent.com/103306835/226788885-eb928e01-fc86-4efd-baa3-e9c73a91d5cd.png)
+
+13.點選[Save routes]
+
+![image](https://user-images.githubusercontent.com/103306835/226788920-ce6677fa-5727-4381-addf-61e8feee69a9.png)
+
+
+# 步驟3：測試VPC對等連接
+
+
