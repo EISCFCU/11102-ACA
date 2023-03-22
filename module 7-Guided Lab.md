@@ -119,11 +119,11 @@ Target：Peering Connection->Lab-Peer
 
 1.搜尋EC2
 
-![image](https://user-images.githubusercontent.com/103306835/226789255-9015293d-ce8b-4506-8ff6-16575527118a.png)
+![image](https://user-images.githubusercontent.com/103306835/226789991-df281de4-6913-47b0-9848-5c8246627c47.png)
 
 2.點選[EC2]
 
-![image](https://user-images.githubusercontent.com/103306835/226789186-6ef1bb72-bdb6-47c6-a081-e12936220c4d.png)
+![image](https://user-images.githubusercontent.com/103306835/226790012-ff5abc71-bb12-4f8d-b285-998e7fe223ca.png)
 
 3.點選[Instances]
 
