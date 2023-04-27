@@ -29,7 +29,7 @@ Module 7 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/module%207-
 
 #0420實作內容
 
-Module 10 Guided Lab：
+Module 10 Guided Lab：https://github.com/EISCFCU/11102-ACA/blob/main/Module%2010%20Guided%20Lab.md
 
 #0427實作內容
 
