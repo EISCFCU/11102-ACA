@@ -2,6 +2,7 @@
 
 # 實施步驟
 
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/418e4d1a-e232-45d8-829d-388dcaed0ac5)
 
 # 實施架構
 
@@ -290,4 +291,63 @@ Access your S3 bucket: Use an existing IAM role
 
 ![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/fcf55b28-5c0a-4d2e-9b13-e0f2d2b8da5f)
 
-6.
+6.Seconds between keepalives: 30
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/1c751290-6dd9-4df1-ab4c-27bde54d2c11)
+
+7.Host Name (or IP address):OnPremLinuxInstance vaiue
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/3bde39dd-555d-46aa-a24f-60971ecfd2c6)
+
+8.點選[Browse]
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/0dacfe97-f51c-4557-80fd-56556abcaf8e)
+
+9.上傳[labsuser.ppk]
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/0ef749e1-f1a9-4198-a424-80c550ebdbee)
+
+10.點選[Open]
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/6c3a4a8b-377d-43cc-9054-c60f18424ecf)
+
+11.點選[Accept]
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/2607f23d-8c6e-4c74-b79d-65f958b1947c)
+
+12.login as, enter: ec2-user
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/c1bc9ccb-8027-4f4e-b785-20f8de4080cc)
+
+13.輸入ls /media/data
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/eef9e13e-f617-4f27-ac59-ba1eab3ee457)
+
+14.輸入sudo mkdir -p /mnt/nfs/s3
+
+輸入sudo mount -t nfs -o nolock,hard <File-Gateway-appliance-private-IP-address>:/<S3-bucket-name> /mnt/nfs/s3
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/6f5b4ff4-17e6-4a7e-8b5f-e8053e239119)
+
+15.輸入df -h
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/eb0c4784-ba6c-40b6-b676-d2526f6518ac)
+
+16.cp -v /media/data/*.png /mnt/nfs/s3
+  
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/33ab5468-b576-4903-9e35-9eb12f5119fb)
+
+# 步驟5：驗證數據是否被遷移
+  
+  
+1.點選[S3]
+
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/5b9f3c2e-60ed-4700-813f-0543a8d22df7)
+
+2.點選在US East的Bucket
+  
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/b12c62cc-6602-465b-9e97-15b10361ee5d)
+
+3.查看桶子內的檔案
+  
+![image](https://github.com/EISCFCU/11102-ACA/assets/103306835/b9ce39fa-7d99-4e36-9e08-b1444f3daf93)
